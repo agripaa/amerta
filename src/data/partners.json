@@ -1,0 +1,13 @@
+[
+    { "id": 1, "name": "Pondok Pesantren Al Rahmah", "address": "Kp. Lebak, Ds. Lebak Wangi, Kec. Walantaka, Banten" },
+    { "id": 2, "name": "Pondok Pesantren La Tansa", "address": "Parakanmukti, Labak Gadong, Banten" },
+    { "id": 3, "name": "Pondok Pesantren 3 San Kurnia Karima", "address": "Jl. Srikandi Sukonala, Cileduk, Majasari, Banten" },
+    { "id": 4, "name": "Pondok Pesantren Tahfidzul Qur'an Azkiyah", "address": "Kota Tegal, Masjid Al Iqra, Sudirman, Ciledug" },
+    { "id": 5, "name": "Pondok Pesantren Darunnajah Putera", "address": "Jl. Ulujami Raya No.85, Pesanggrahan, Jaksel" },
+    { "id": 6, "name": "Pondok Pesantren Darunnajah Puteri", "address": "Jl. Ulujami Raya No.85, Pesanggrahan, Jaksel" },
+    { "id": 7, "name": "Pondok Pesantren Luhur Al Taqafah", "address": "Jl. Cipedes, Jagakarsa, Jakarta" },
+    { "id": 8, "name": "Pondok Pesantren Minhajurasyidin", "address": "Jl. Smp 7 No.17 Rt 09 Rw 09, Lubang Buaya" },
+    { "id": 9, "name": "Pondok Pesantren Tahfidz dan Qiroat Daru Habib", "address": "Jl H. Gani RT 05 RW 02, Petukangan Utara, Jaksel" },
+    { "id": 10, "name": "Pondok Pesantren Al Basyariyah", "address": "Jl. Mahmud Ciganeddah, Rohay Margasih, Bandung" }
+  ]
+  
