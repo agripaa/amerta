@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
 
         {/* Container Gambar dengan Absolute Positioning */}
-        <div className="md:w-7/12 relative w-full flex items-center justify-center">
+        <div className="md:w-7/12 relative w-full flex items-center justify-center mt-12">
           {/* Gambar Tengah (Utama) */}
           <div className="relative w-[75%] z-10">
             <Image src={hero2} alt="Gambar Tengah" className="rounded-lg shadow-lg w-full" />
