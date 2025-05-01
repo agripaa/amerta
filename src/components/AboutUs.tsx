@@ -1,8 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import dum1 from "@/assets/dum1.png";
-import dum2 from "@/assets/dum2.png";
-import dum3 from "@/assets/dum3.png";
+import dum1 from "@/assets/amerta assets/used3.jpg";
+import dum2 from "@/assets/amerta assets/used5.jpg";
+import dum3 from "@/assets/amerta assets/used4.jpg";
+import dum4 from "@/assets/amerta assets/used2.jpg";
+import dum5 from "@/assets/amerta assets/used6.jpg";
 
 const AboutUs = () => {
   return (
@@ -38,10 +40,10 @@ const AboutUs = () => {
               </div>
               <div className="grid grid-cols-2 gap-4 flex-grow">
                 <div>
-                  <Image src={dum1} alt="Image 4" className="rounded-xl object-cover w-full h-72" />
+                  <Image src={dum4} alt="Image 4" className="rounded-xl object-cover w-full h-72" />
                 </div>
                 <div>
-                  <Image src={dum2} alt="Image 5" className="rounded-xl object-cover w-full h-72" />
+                  <Image src={dum5} alt="Image 5" className="rounded-xl object-cover w-full h-72" />
                 </div>
               </div>
             </div>

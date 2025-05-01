@@ -121,7 +121,7 @@ const Values = () => {
             return (
               <div
                 key={index}
-                className="relative flex flex-col items-center text-center gap-2 group hover:bg-[#DDFBE8] duration-500 py-6"
+                className="relative flex flex-col items-center text-center gap-2 group hover:bg-[#DDFBE8] duration-500 py-6 rounded-xl"
                 onMouseEnter={() => setHoveredIndex(item.id)}
                 onMouseLeave={() => setHoveredIndex(null)}
               >
@@ -129,7 +129,7 @@ const Values = () => {
                   {item.letter}
                 </div>
                 <p className="text-xl font-semibold mt-2 text-black">{item.title}</p>
-                <IconComponent className="text-[#C3D4DE] mt-6" size={90} />
+                <IconComponent className="text-[#4eda87] mt-6" size={80} />
 
                 <AnimatePresence>
                 {hoveredIndex === item.id && (

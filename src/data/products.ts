@@ -1,5 +1,6 @@
 import smartel from "@/assets/smartel.png";
 import imc from "@/assets/imc.png";
+import paypas from "@/assets/paypas.png"
 
 export const productsData = [
     {
@@ -29,7 +30,7 @@ export const productsData = [
       "title": "Paypas (Payment Pesantren)",
       "description": "Paypas (Payment Pesantren) adalah sistem pembayaran elektronik yang memanfaatkan virtual account dan teknologi biometrik untuk memastikan transaksi yang aman, efisien, dan terkontrol di lingkungan pondok pesantren.",
       "features": [],
-      "image": ""
+      "image": paypas
     }
   ]
   

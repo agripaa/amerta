@@ -9,22 +9,22 @@ const Footer = () => {
 
   const socmed = [
     {
-      title: "hallo",
-      href: "mailto:activemandarinid@gmail.com",
+      title: "",
+      href: "/",
       icons: <SiGmail />,
     },
     {
-      title: "hallo",
-      href: "https://www.tiktok.com/@activemandarin.id",
+      title: "",
+      href: "/",
       icons: <SiTiktok />,
     },
     {
-      title: "hallo",
-      href: "https://www.instagram.com/activemandarin.id/",
+      title: "",
+      href: "/",
       icons: <SiInstagram />,
     },
     {
-      title: "hallo",
+      title: "",
       href: "/",
       icons: <SlGlobe />,
     },
@@ -44,17 +44,17 @@ const Footer = () => {
             <div className="mt-5 flex flex-col gap-2">
               <h2 className="text-xl font-semibold">Alamat</h2>
               <p className="md:text-base text-md font-regular">
-                Graha Pasopati Nusantara Jl. Monumen Pancasila Sakti No. 60 Lubang Buaya Jakarta 13810
+                Jl. Raya Gempol Kavling I No.19, RT.006/002, Gempol Kel, Ceger, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820
               </p>
               <h2 className="text-xl font-semibold">Nomor Telepon</h2>
-              <p className="md:text-base text-md font-regular">+62 0823-625-9177</p>
+              <p className="md:text-base text-md font-regular">+62-822-1144-9515</p>
             </div>
           </div>
 
           {/* Bagian Tengah (Social Media) */}
           <div className="w-full md:w-1/4">
             <h1 className="text-xl font-bold">Social Media</h1>
-            <div className="mt-5 space-y-4">
+            <div className="mt-5 flex space-x-4">
               {socmed.map((item, index) => (
                 <Link
                   href={item.href}

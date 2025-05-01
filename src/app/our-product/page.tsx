@@ -27,7 +27,7 @@ const ProductsPage = () => {
                 <div key={product.id} className="flex flex-col md:flex-row items-start bg-white p-6 py-12 rounded-lg gap-6">
                   {/* Product Image */}
                   <div className="w-full md:w-1/3 flex justify-center">
-                    <Image src={product.image} alt={product.title} className="rounded-lg object-cover w-full" />
+                    <Image src={product.image} alt={product.title} className="rounded-2xl object-cover w-full border border-gray-300" />
                   </div>
     
                   {/* Product Content */}

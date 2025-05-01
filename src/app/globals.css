@@ -21,3 +21,8 @@ body {
   background: var(--background);
   font-family: "Poppins", sans-serif;
 }
+
+
+html {
+  scroll-behavior: smooth;
+}

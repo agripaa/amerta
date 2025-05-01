@@ -1,9 +1,9 @@
 import { benefitData } from '@/data/benefit';
 import React from 'react';
 import Image from 'next/image';
-import dum1 from "@/assets/dum1.png";
-import dum2 from "@/assets/dum2.png";
-import dum3 from "@/assets/dum3.png";
+import dum1 from "@/assets/amerta assets/used1.jpg";
+import dum2 from "@/assets/amerta assets/used3.jpg";
+import dum3 from "@/assets/amerta assets/used4.jpg";
 
 const Benefit = () => {
   return (
@@ -45,11 +45,11 @@ const Benefit = () => {
               <div className="grid grid-cols-2 gap-4">
                 {/* Gambar pertama (besar, 2 kolom) */}
                 <div>
-                  <Image src={dum1} alt="Image 1" className="rounded-xl object-cover w-full h-auto" />
+                  <Image src={dum1} alt="Image 1" className="rounded-xl object-cover w-full h-full" />
                 </div>
                 {/* Gambar kedua (kiri) */}
                 <div>
-                  <Image src={dum2} alt="Image 2" className="rounded-xl object-cover w-full h-auto" />
+                  <Image src={dum2} alt="Image 2" className="rounded-xl object-cover w-full h-full" />
                 </div>
               </div>
               {/* Gambar mobil (Tinggi dipaksa mengikuti konten kiri) */}
