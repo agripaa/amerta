@@ -46,8 +46,10 @@ const Footer = () => {
               <p className="md:text-base text-md font-regular">
                 Jl. Raya Gempol Kavling I No.19, RT.006/002, Gempol Kel, Ceger, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820
               </p>
+              <h2 className="text-xl font-semibold">Nomor Whatsapp</h2>
+              <p className="md:text-base text-md font-regular">+62-822-1134-6515</p>
               <h2 className="text-xl font-semibold">Nomor Telepon</h2>
-              <p className="md:text-base text-md font-regular">+62-822-1144-9515</p>
+              <p className="md:text-base text-md font-regular">021 38853070</p>
             </div>
           </div>
 

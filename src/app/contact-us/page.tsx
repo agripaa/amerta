@@ -1,5 +1,6 @@
 import React from 'react';
 import { RiPhoneFill, RiMailFill, RiMapPin2Fill } from 'react-icons/ri';
+import { RiBuildingFill } from "react-icons/ri";
 
 const ContactPage = () => {
   return (
@@ -16,6 +17,10 @@ const ContactPage = () => {
           <h2 className="text-3xl font-semibold text-black text-left">
             Hubungi Kami
           </h2>
+          <div className='flex'> 
+            <RiBuildingFill className="text-green-500 text-xl shrink-0 mr-4" />
+            <p className="text-gray-700 text-md">GRAHA PASOPATI NUSANTARA</p>
+          </div>
           <div className='flex w-4/5'> 
             <RiMapPin2Fill className="text-green-500 text-xl shrink-0 mr-4" />
             <p className="text-gray-700 text-md">
@@ -24,7 +29,7 @@ const ContactPage = () => {
           </div>
           <div className='flex'> 
             <RiPhoneFill className="text-green-500 text-xl shrink-0 mr-4" />
-            <p className="text-gray-700 text-md">02138853070</p>
+            <p className="text-gray-700 text-md">021 38853070</p>
           </div>
 
           {/* Card Kontak - Dibuat Sejajar */}
@@ -36,8 +41,8 @@ const ContactPage = () => {
                     <RiPhoneFill className="text-black text-xl" />
                 </div>
                 <div className='flex flex-col'>
-                    <h3 className="text-md font-semibold text-black">Nomor Telepon</h3>
-                    <p className="text-gray-700 text-sm mt-1">+62-822-1144-9515</p>
+                    <h3 className="text-md font-semibold text-black">Nomor Whatsapp</h3>
+                    <p className="text-gray-700 text-sm mt-1">+62-822-1134-6515</p>
                 </div>
               </div>
               <button className="mt-auto text-black bg-[#89ECB1] font-medium px-4 py-2 rounded-md w-full">
