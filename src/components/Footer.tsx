@@ -44,7 +44,7 @@ const Footer = () => {
             <div className="mt-5 flex flex-col gap-2">
               <h2 className="text-xl font-semibold">Alamat</h2>
               <p className="md:text-base text-md font-regular">
-              Jl.Raya Gempol Kavling II No.19, RT.006/002, Gempol Kel, Ceger, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820
+              Jl.Raya Gempol Kavling II Gempol Kel, Ceger, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820
               </p>
               <h2 className="text-xl font-semibold">Nomor Whatsapp</h2>
               <p className="md:text-base text-md font-regular">+62-822-1134-6515</p>
