@@ -23,9 +23,11 @@ const ContactPage = () => {
           </div>
           <div className='flex w-4/5'> 
             <RiMapPin2Fill className="text-green-500 text-xl shrink-0 mr-4" />
-            <p className="text-gray-700 text-md">
-              Jl.Raya Gempol Kavling II Gempol Kel, Ceger, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820
-            </p>
+            <span className="flex flex-col tracking-[0.0025em]">
+              <p className="text-gray-700 text-base">Jl.Raya Gempol Kavling II</p>
+              <p className="text-gray-700 text-base">Gempol Kel, Ceger, Kec. Cipayung,</p>
+              <p className="text-gray-700 text-base">Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820</p>
+            </span>
           </div>
           <div className='flex'> 
             <RiPhoneFill className="text-green-500 text-xl shrink-0 mr-4" />
