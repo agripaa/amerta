@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { SiTiktok, SiGmail, SiInstagram } from "react-icons/si";
 import { SlGlobe } from "react-icons/sl";
+import { RiWhatsappLine, RiPhoneFill } from 'react-icons/ri';
 import logo from "@/assets/logo amerta.png";
 import Link from "next/link";
 
@@ -49,10 +50,14 @@ const Footer = () => {
                 <p className="text-gray-700 text-base">Gempol Kel, Ceger, Kec. Cipayung,</p>
                 <p className="text-gray-700 text-base">Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820</p>
               </span>
-              <h2 className="text-xl font-semibold">Nomor Whatsapp</h2>
-              <p className="md:text-base text-md font-regular">+62-822-1134-6515</p>
-              <h2 className="text-xl font-semibold">Nomor Telepon</h2>
-              <p className="md:text-base text-md font-regular">021 38853070</p>
+              <div className="flex items-center gap-2 mt-2">
+                <RiPhoneFill size={25}/>
+                <p className="md:text-base text-md font-regular">021 38853070</p>
+              </div>
+              <div className="flex items-center gap-2 mt-2">
+                <RiWhatsappLine size={25}/>
+                <p className="md:text-base text-md font-regular">+62 822-1134-6515</p>
+              </div>
             </div>
           </div>
 
