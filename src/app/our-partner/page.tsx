@@ -80,11 +80,6 @@ const PartnersPage = () => {
     <div className="bg-white text-black">
       <section className="pt-36 md:pt-40 py-18 max-w-[1440px] mx-auto">
         <div className="flex flex-col w-full items-center gap-4 px-4 md:px-0">
-          <div className="flex w-auto">
-            <p className="text-green-600 max-w-max px-4 bg-[#DDFBE8] text-center font-medium rounded-full">
-              Our Partner
-            </p>
-          </div>
           <h2 className="text-3xl font-semibold text-black text-center lg:w-[44%]">
             Partner Kami
           </h2>
