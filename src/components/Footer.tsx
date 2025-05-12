@@ -44,6 +44,7 @@ const Footer = () => {
             <div className="mt-5 flex flex-col gap-2">
               <h2 className="text-xl font-semibold">Alamat</h2>
               <span className="flex flex-col tracking-[0.0025em]">
+                <p className="text-gray-700 text-base">GRAHA PASOPATI NUSANTARA</p>
                 <p className="text-gray-700 text-base">Jl.Raya Gempol Kavling II</p>
                 <p className="text-gray-700 text-base">Gempol Kel, Ceger, Kec. Cipayung,</p>
                 <p className="text-gray-700 text-base">Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820</p>

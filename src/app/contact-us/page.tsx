@@ -9,11 +9,6 @@ const ContactPage = () => {
         
         {/* Bagian Kiri - Informasi Kontak */}
         <div className="flex flex-col gap-4 h-full flex-1">
-          <div className="flex w-auto">
-            <p className="text-green-600 max-w-max px-4 bg-[#DDFBE8] text-center font-medium rounded-full py-1">
-              Contact Us
-            </p>
-          </div>
           <h2 className="text-3xl font-semibold text-black text-left">
             Hubungi Kami
           </h2>

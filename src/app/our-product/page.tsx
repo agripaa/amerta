@@ -10,11 +10,6 @@ const ProductsPage = () => {
       <section className="pt-6 md:pt-40 py-18 max-w-[1440px] px-6 lg:mx-auto">
         {/* Header */}
         <div className="flex flex-col w-full items-start gap-4 px-4 md:px-0">
-          <div className="flex w-auto">
-            <p className="text-green-600 max-w-max px-4 bg-[#DDFBE8] text-center font-medium rounded-full py-1">
-              Produk/Layanan Kami
-            </p>
-          </div>
           <h2 className="text-3xl font-semibold text-black text-left w-full md:w-8/12 lg:w-[44%]">
             Solusi Digital Terbaik untuk Komunikasi di Pondok Pesantren
           </h2>

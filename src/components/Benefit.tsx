@@ -11,11 +11,6 @@ const Benefit = () => {
       <section className='pt-36 md:pt-24 py-18 flex flex-col md:flex-row items-center max-w-[1440px] px-6 lg:mx-auto'>
         <div className='flex flex-col w-full'>
           <div>
-              <div className='flex w-full'>
-                  <p className="text-green-600 max-w-max px-4 bg-[#DDFBE8] text-center font-medium rounded-full py-1">
-                  Why Choose Us?
-                  </p>
-              </div>
               <h2 className="text-[2rem] font-semibold text-black">
               Mengapa Memilih Kami?
               </h2>

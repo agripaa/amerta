@@ -8,11 +8,6 @@ const OurClient = () => {
         <section className="bg-[#EBF1F4] rounded-md py-12">
             <div className="max-w-[1440px] mx-auto text-center">
                 <div className="w-full flex flex-col items-center">
-                    <div className='flex justify-center w-full'>
-                        <p className="text-green-600 max-w-max px-4 bg-[#DDFBE8] text-center font-medium rounded-full py-1">
-                            Our Client
-                        </p>
-                    </div>
                     <h2 className="lg:text-[2.5rem]/tight md:w-3/5 lg:w-2/5 w-full text-2xl md:text-3xl font-semibold mt-2 text-black">
                         Kepercayaan Mereka, Kebanggaan Kami
                     </h2>

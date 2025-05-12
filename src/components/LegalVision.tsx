@@ -6,11 +6,6 @@ const LegalVision = () => {
     <section className="bg-[#EBF1F4] rounded-md py-12">
       <div className="max-w-[1440px] mx-auto text-center px-4 md:px-8">
         <div className="w-full flex flex-col items-center">
-          <div className='flex justify-center w-full'>
-            <p className="text-green-600 max-w-max px-4 bg-[#DDFBE8] text-center font-medium rounded-full py-1">
-              Vision, Mission & Legality 
-            </p>
-          </div>
           <h2 className="text-2xl md:text-[2.5rem] font-semibold mt-4 text-black">
             Visi Misi & Legalitas 
           </h2>

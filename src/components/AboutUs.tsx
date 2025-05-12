@@ -12,11 +12,6 @@ const AboutUs = () => {
       <section className='pt-6 md:pt-40 py-18 flex flex-col md:flex-row-reverse items-center max-w-[1440px] px-6 lg:mx-auto'>
         <div className='flex flex-col w-full '>
           <div className='flex flex-col w-full justify-center items-center'>
-              <div className='flex w-auto'>
-                  <p className="text-green-600 max-w-max px-4 bg-[#DDFBE8] text-center font-medium rounded-full py-1">
-                    Our Story
-                  </p>
-              </div>
               <h2 className="text-[2rem] font-semibold text-black text-left md:text-right">
               Cerita Kami
               </h2>

@@ -101,11 +101,6 @@ const Values = () => {
     <section className="py-16 px-6">
       <div className="max-w-[1440px] mx-auto text-center">
         <div className='w-9/12 mx-auto'>
-            <div className='flex justify-center w-full'>
-              <p className="text-green-600 max-w-max px-4 bg-[#DDFBE8] text-center font-medium rounded-full py-1">
-                Our Corporate Value
-              </p>
-            </div>
             <h2 className="text-[2.5rem] font-semibold mt-2 text-black">
               Nilai – Nilai Perusahaan
             </h2>
