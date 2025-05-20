@@ -104,9 +104,6 @@ const Values = () => {
             <h2 className="text-[2.5rem] font-semibold mt-2 text-black">
               Nilai – Nilai Perusahaan
             </h2>
-            <p className='text-left mt-2'>
-              PT Amerta Semesta Nusantara adalah perusahaan yang berkomitmen untuk menjadi pemimpin dalam bidang teknologi informasi dan telekomunikasi di Pondok Pesantren. Dengan mengedepankan nilai-nilai IKHLAS dalam setiap aspek operasionalnya, perusahaan ini berusaha untuk menciptakan lingkungan kerja yang profesional, inovatif, dan berkelanjutan. Berikut adalah penjabaran nilai IKHLAS yang diterapkan oleh PT Amerta Semesta Nusantara:
-            </p>
           </div>
 
         {/* Grid untuk huruf dan ikon */}
