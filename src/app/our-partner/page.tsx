@@ -2,10 +2,16 @@
 
 import React, { useEffect, useState } from "react";
 import { RiSearchLine } from "react-icons/ri";
+import * as XLSX from "xlsx";
 
 interface Partner {
   NamaPondokPesantren: string;
   Alamat: string;
+}
+
+interface ExcelRow {
+  "Nama Pondok Pesantren": string;
+  "Alamat": string;
 }
 
 const ITEMS_PER_PAGE = 10;
@@ -17,25 +23,32 @@ const PartnersPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // Ambil data dari file Excel di folder public/
   useEffect(() => {
-    fetch("/api/partners")
-      .then((response) => {
-        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-        return response.json();
-      })
-      .then((data) => {
-        if (data.success) {
-          setPartnersData(data.data);
-        } else {
-          setError(data.message);
-        }
+    const fetchExcel = async () => {
+      try {
+        const res = await fetch("/2023 - 05_04_DATA PONPES.xlsx");
+        const blob = await res.blob();
+        const arrayBuffer = await blob.arrayBuffer();
+        const workbook = XLSX.read(arrayBuffer, { type: "array" });
+        const sheet = workbook.Sheets[workbook.SheetNames[0]];
+
+        const json = XLSX.utils.sheet_to_json<ExcelRow>(sheet);
+        const formatted: Partner[] = json.map((item) => ({
+          NamaPondokPesantren: item["Nama Pondok Pesantren"],
+          Alamat: item["Alamat"],
+        }));
+        
+        setPartnersData(formatted);
+      } catch (err) {
+        console.error("Gagal membaca file Excel:", err);
+        setError("Gagal membaca file Excel.");
+      } finally {
         setLoading(false);
-      })
-      .catch((error) => {
-        console.error("Gagal mengambil data:", error);
-        setError("Terjadi kesalahan saat mengambil data.");
-        setLoading(false);
-      });
+      }
+    };
+
+    fetchExcel();
   }, []);
 
   // Filter pencarian
@@ -50,29 +63,19 @@ const PartnersPage = () => {
     currentPage * ITEMS_PER_PAGE
   );
 
-  // Fungsi untuk membuat tampilan pagination dinamis
   const renderPagination = () => {
     const pages = [];
     if (totalPages <= 7) {
-      // Jika total halaman <= 7, tampilkan semua angka
-      for (let i = 1; i <= totalPages; i++) {
-        pages.push(i);
-      }
+      for (let i = 1; i <= totalPages; i++) pages.push(i);
     } else {
-      // Jika halaman pertama atau kedua, tampilkan 1 2 3 ... last
       if (currentPage <= 3) {
         pages.push(1, 2, 3, "...", totalPages);
-      }
-      // Jika halaman terakhir atau dua halaman sebelum terakhir, tampilkan 1 ... last-2 last-1 last
-      else if (currentPage >= totalPages - 2) {
+      } else if (currentPage >= totalPages - 2) {
         pages.push(1, "...", totalPages - 2, totalPages - 1, totalPages);
-      }
-      // Jika berada di tengah, tampilkan 1 ... current-1 current current+1 ... last
-      else {
+      } else {
         pages.push(1, "...", currentPage - 1, currentPage, currentPage + 1, "...", totalPages);
       }
     }
-
     return pages;
   };
 
@@ -92,7 +95,6 @@ const PartnersPage = () => {
               value={searchTerm}
               onChange={(e) => {
                 setSearchTerm(e.target.value);
-                console.log("Search term:", e.target.value);
               }}
             />
           </div>
