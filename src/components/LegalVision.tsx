@@ -18,7 +18,7 @@ const LegalVision = () => {
                 <RiFocus3Fill size={28} />
               </div>
               <div className="mt-4 text-center md:text-left flex flex-col gap-2">
-                <h3 className="text-lg md:text-xl font-semibold text-black">Visi Kami</h3>
+                <h3 className="text-lg md:text-xl font-semibold text-black">Visi</h3>
                 <p className="text-gray-700 text-sm md:text-base">
                   Menjadi Penyedia Teknologi Informasi dan Telekomunikasi nomor satu dan terbaik di lingkungan Pondok Pesantren di seluruh Indonesia.
                 </p>
@@ -31,7 +31,7 @@ const LegalVision = () => {
                 <RiFocus2Line size={28} />
               </div>
               <div className="mt-4 text-center md:text-left flex flex-col gap-2">
-                <h3 className="text-lg md:text-xl font-semibold text-black">Misi Kami</h3>
+                <h3 className="text-lg md:text-xl font-semibold text-black">Misi</h3>
                 <p className="text-gray-700 text-sm md:text-base">
                   Sebagai solusi terbaik bagi para santri untuk berkomunikasi dengan dunia luar pesantren dengan aman, nyaman dan terjangkau meski tetap dalam pengawasan pengasuh pondok pesantren.
                 </p>
